@@ -1,0 +1,53 @@
+.card {
+    margin: 20px;
+    width: 18rem;
+    background-color: #009688;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin:0px
+    
+  }
+  
+  #closeIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+  
+  .card-body {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flag {
+  height: 60px;
+  width: 60px;
+}
+
+.cityName {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#description {
+  margin:0px;
+  text-transform: capitalize;
+}
+
+#iconWeather {
+  padding: 0px
+}
+.btn-danger {
+  background-color: #607D8B!important;
+  border-color: #607D8B;
+}
