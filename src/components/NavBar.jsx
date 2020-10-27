@@ -4,11 +4,10 @@ import { addCity } from '../actions';
 import "./NavBar.css";
 import swal from 'sweetalert';
 const axios = require('axios');
-const APIKEY = ""
+const APIKEY = process.env.REACT_APP_NOT_SECRET_CODE
 
 function NavBar({  addCity, cities, nameCities}) {
   const [city, setCity] = useState([])
-
   function onSearch(e) { 
     e.preventDefault();
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric&lang=ES`;
